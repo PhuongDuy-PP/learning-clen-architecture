@@ -1,0 +1,64 @@
+2025-04-07 20:02:21,650 - clean_architecture - ERROR - Server error: 'UserValidator' object has no attribute 'validate_email'
+2025-04-07 20:07:29,410 - clean_architecture - ERROR - Server error: 'UserValidator' object has no attribute 'validate_email'
+2025-04-07 20:10:17,372 - clean_architecture - ERROR - Server error: argument of type 'UserInputDTO' is not iterable
+2025-04-07 20:11:28,864 - clean_architecture - ERROR - Server error: 'UserInputDTO' object is not subscriptable
+2025-04-07 20:13:01,896 - clean_architecture - ERROR - Server error: (pymysql.err.OperationalError) (1054, "Unknown column 'users.password' in 'field list'")
+[SQL: SELECT users.id, users.username, users.email, users.password, users.is_active 
+FROM users 
+WHERE users.email = %s]
+[parameters: ('test@example.com',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-07 20:14:43,950 - clean_architecture - ERROR - Server error: Password must contain at least one uppercase letter
+2025-04-07 20:15:10,236 - clean_architecture - ERROR - Server error: User.__init__() missing 1 required positional argument: 'user_id'
+2025-04-07 20:15:55,776 - clean_architecture - ERROR - Server error: User.__init__() missing 1 required positional argument: 'user_id'
+2025-04-07 20:16:23,783 - clean_architecture - ERROR - Server error: User.__init__() missing 1 required positional argument: 'user_id'
+2025-04-07 20:17:01,727 - clean_architecture - INFO - User testuser registered successfully
+2025-04-07 20:17:06,934 - clean_architecture - INFO - Getting all users
+2025-04-07 20:17:06,944 - clean_architecture - INFO - Found 1 users
+2025-04-07 20:17:31,262 - clean_architecture - INFO - Getting user with ID: 1
+2025-04-07 20:17:38,188 - clean_architecture - ERROR - Server error: argument of type 'UserUpdateDTO' is not iterable
+2025-04-07 20:18:01,460 - clean_architecture - ERROR - Server error: argument of type 'UserUpdateDTO' is not iterable
+2025-04-07 20:18:46,792 - clean_architecture - ERROR - Server error: argument of type 'UserUpdateDTO' is not iterable
+2025-04-07 20:19:32,117 - clean_architecture - ERROR - Server error: argument of type 'UserUpdateDTO' is not iterable
+2025-04-07 20:20:08,240 - clean_architecture - ERROR - User with ID 1 not found
+2025-04-07 20:20:08,240 - clean_architecture - ERROR - User update failed: User with ID 1 not found
+2025-04-07 20:20:13,776 - clean_architecture - INFO - Getting all users
+2025-04-07 20:20:13,783 - clean_architecture - INFO - Found 0 users
+2025-04-07 20:20:20,323 - clean_architecture - INFO - User testuser registered successfully
+2025-04-07 20:20:24,855 - clean_architecture - INFO - User 1 updated successfully
+2025-04-07 20:20:29,187 - clean_architecture - INFO - Deleting user with ID: 2
+2025-04-07 20:20:29,204 - clean_architecture - INFO - User 2 deleted successfully
+2025-04-07 22:04:54,255 - clean_architecture - INFO - Getting all users
+2025-04-07 22:04:54,266 - clean_architecture - INFO - Found 0 users
+2025-04-07 22:05:16,014 - clean_architecture - INFO - User phuong registered successfully
+2025-04-07 22:05:20,369 - clean_architecture - INFO - Getting all users
+2025-04-07 22:05:20,374 - clean_architecture - INFO - Found 1 users
+2025-04-07 22:38:59,862 - clean_architecture - INFO - Getting all users
+2025-04-07 22:38:59,963 - clean_architecture - INFO - Found 1 users
+2025-04-07 22:44:39,711 - clean_architecture - INFO - Getting all users
+2025-04-07 22:44:39,731 - clean_architecture - ERROR - Error listing users: (pymysql.err.OperationalError) (1054, "Unknown column 'users.password' in 'field list'")
+[SQL: SELECT users.id, users.username, users.email, users.password, users.is_active 
+FROM users]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-07 22:47:30,946 - clean_architecture - ERROR - Server error: Password must contain at least one uppercase letter
+2025-04-07 22:47:37,031 - clean_architecture - ERROR - Server error: (pymysql.err.OperationalError) (1054, "Unknown column 'users.password' in 'field list'")
+[SQL: SELECT users.id, users.username, users.email, users.password, users.is_active 
+FROM users 
+WHERE users.email = %s]
+[parameters: ('test@example.com',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-07 22:49:07,927 - clean_architecture - INFO - User testuser registered successfully
+2025-04-07 22:49:23,056 - clean_architecture - INFO - Getting all users
+2025-04-07 22:49:23,061 - clean_architecture - INFO - Found 1 users
+2025-04-07 22:49:30,068 - clean_architecture - INFO - Getting user with ID: 5feb5419-3edc-40b3-82b0-ddd8c777109b
+2025-04-07 22:49:35,713 - clean_architecture - INFO - User 5feb5419-3edc-40b3-82b0-ddd8c777109b updated successfully
+2025-04-07 22:49:41,339 - clean_architecture - INFO - Deleting user with ID: 72d7991d-8dcd-44ed-abfa-339ddb37e186
+2025-04-07 22:49:41,355 - clean_architecture - INFO - User 72d7991d-8dcd-44ed-abfa-339ddb37e186 deleted successfully
+2025-04-07 22:49:49,905 - clean_architecture - INFO - Getting all users
+2025-04-07 22:49:49,923 - clean_architecture - INFO - Found 1 users
+2025-04-07 22:50:10,131 - clean_architecture - INFO - Deleting user with ID: 5feb5419-3edc-40b3-82b0-ddd8c777109b
+2025-04-07 22:50:10,159 - clean_architecture - INFO - User 5feb5419-3edc-40b3-82b0-ddd8c777109b deleted successfully
+2025-04-07 22:50:12,325 - clean_architecture - INFO - Deleting user with ID: 5feb5419-3edc-40b3-82b0-ddd8c777109b
+2025-04-07 22:50:12,353 - clean_architecture - ERROR - User deletion failed: User with ID 5feb5419-3edc-40b3-82b0-ddd8c777109b not found
+2025-04-07 22:50:15,444 - clean_architecture - INFO - Getting all users
+2025-04-07 22:50:15,447 - clean_architecture - INFO - Found 0 users
